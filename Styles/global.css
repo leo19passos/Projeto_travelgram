@@ -1,7 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   :root {
     --brand-color: #EF5F4C;
@@ -21,4 +21,12 @@
   body {
     color: var(--text-color-secondary);
     background-color: var(--background-color);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
   }
