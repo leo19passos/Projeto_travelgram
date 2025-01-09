@@ -14,7 +14,7 @@ gap: 24px ;
 
 padding-block: 8px;
 }
-ul li:last-child img {
+ #primary-menu li:last-child img {
   width: 40px ;
   height: 40px ;
   object-fit: cover;
