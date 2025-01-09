@@ -1,18 +1,17 @@
 header {
   padding-block: 32px;
-  
+  border: solid;
 }
 header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 
 }
 #profile {
   gap: 32px;
   display: flex;
-  gap: 32px ;
+  border: solid;
 }
 
 
@@ -26,23 +25,21 @@ header .container {
 #profile p {
   font: var(--text-md);
   max-width: 384px;
+  border: solid;
 }
 #info {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
+  border: solid;
   max-width: 280px;
   
-  
 }
-li {
+#info li {
   display: flex;
-  align-items: center;
   gap: 8px;
   font: var(--text-sm);
-  
 }
 
 
